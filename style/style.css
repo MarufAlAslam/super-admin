@@ -1,0 +1,518 @@
+/* ================index.html================================== */
+.fullpage{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:focus{
+    box-shadow: unset !important;
+}
+.portal {
+    position: relative;
+    top: -20px;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.btn-warning{
+    background-color: #F89A47 !important;
+    border: unset !important;
+    border-radius: unset !important;
+    padding: 10px;
+}
+.btn-outline-warning{
+    color: #F89A47 !important;
+    border-color: #F89A47 !important;
+    border-radius: unset !important;
+    padding: 10px;
+}
+.btn-outline-warning:hover{
+    background-color: #F89A47 !important;
+    color: white !important;
+}
+.login-input{
+    border-color: #F89A47 !important;
+}
+.small-container{
+    max-width: 60% !important;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #F89A47;
+    /* display: inline-block; */
+    padding: 15px 10px !important;
+
+    cursor: pointer;
+}
+.step2, .step3, .step4, .step5{
+    display: none;
+}
+.text-warning{
+    color: #F9A558 !important;
+}
+.text-success{
+    color: #75BC8E !important;
+}
+.text-info{
+    color: #7ED5E4 !important;
+}
+.font-12{
+    font-size: 12px;
+}
+.text-left{
+    text-align: left !important;
+}
+p.text-left{
+    font-size: 16px !important;
+}
+.activeCard1{
+    background-color: #FDA14F; 
+}
+.activeCard1 p, .activeCard1 h5, .activeCard1 h6{
+    color: white !important;
+}
+.thumbs {
+    width: 145px;
+    margin: 10px 0;
+}
+.sidebar-sm{
+    height: 100vh !important;
+}
+
+.activeCard2{
+    background-color: #69CA8B; 
+}
+.activeCard2 p, .activeCard2 h5, .activeCard2 h6{
+    color: white !important;
+}
+
+.activeCard3{
+    background-color: #95D5E1; 
+}
+.activeCard3 p, .activeCard3 h5, .activeCard3 h6{
+    color: white !important;
+}
+
+/* disabling focus */
+input:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+
+textarea:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+a:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+select:focus{
+    outline: none !important;
+  box-shadow: none !important;
+}
+
+.card.text-center.card-4.card-4-1.px-2.py-5 {
+    padding: 28px !important;
+}
+/* frame */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.topBar{
+    background-color: #17335B !important;
+    color: white !important;
+}
+.mt-4 .custom-file-upload.mt-2.w-100 {
+    border-color: black;
+}
+.logo{
+    width: 120px;
+}
+.text-right{
+    text-align: right !important;
+}
+.text-right .img-fluid{
+    width: 30px;
+}
+.body{
+    overflow-x: hidden !important;
+}
+html{
+    overflow-x: hidden;
+}
+.main-body{
+    max-width: 98%;
+}
+/* sidebar */
+.sidebar{
+    background-color: #17335B;
+    height: 100%;
+    /* padding: 20px 15px; */
+}
+.sidebr-menu {
+    font-size: 19px;
+    line-height: 2;
+}
+h3{
+    color: #17335B !important;
+}
+/* cards */
+.card-1{
+    background: linear-gradient(#F2923D,#FEA352);
+}
+.card-2{
+    background: linear-gradient(#73BD8D,#5BDD89);
+}
+.card-3{
+    background: linear-gradient(#56BED1,#38CAE4);
+}
+.card-4{
+    background: linear-gradient(#17345D,#2E61A9);
+}
+h1{
+    font-size: 65px !important;
+    font-weight: bold;
+}
+.card p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.font-normal{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.slider .card{
+    margin: 10px;
+    text-align: center;
+    /* padding: 10px; */
+}
+.sidebr-menu.active{
+    font-weight: bold;
+}
+.slider .card-body{
+    padding-bottom: 0 !important;
+}
+.viewBtn{
+    border: unset;
+    background-color: #F1913B !important;
+    color: white !important;
+    border-radius: unset;
+}
+.add-patient{
+    font-size: 32px;
+    background: white !important;
+    color: #F1913B !important;
+    border: 2px solid #F1913B !important;
+    border-radius: unset;
+}
+
+.copyright{
+    font-size: 12px !important;
+    z-index: -1;
+}
+.main-body .col-md-10{
+    position: relative;
+}
+.copy-smaller{
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;
+}
+
+
+
+
+
+/*========================================================================= */
+.accordion-button{
+    outline: unset;
+    border: 1px solid black !important;
+    box-shadow: unset;
+    margin: 10px 0;
+    background-color: white !important;
+    border-radius: unset !important;
+    padding: 20px 10px;
+    color: black !important;
+}
+
+.accordion-button:focus {
+    outline: unset;
+    border: 1px solid black;
+    box-shadow: unset;
+}
+
+
+.accordion-button::after {
+    background-image: url(../img/accordion.png) !important;
+}
+.accordion-body .card{
+    border-radius: unset;
+}
+.accordion-body .card:nth-child(odd){
+    background-color: #E6E6E6 !important;
+}
+.accordion-body .card .question{
+    font-weight: bold;
+    font-size: 16px;
+}
+.accordion-body .card .answer{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+/* =====================================new patient============================ */
+input,select,textarea{
+    border-radius: unset !important;
+    padding: 15px 10px !important;
+    border: 1px solid #17335B !important;
+    margin-top: 5px !important;
+}
+.submitBtn{
+    background-color: #F1913B !important;
+    color: white !important;
+    border: unset !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* ============================profile============================= */
+.pp{
+    width: 120px !important;
+}
+.btn{
+    border-radius: 0 !important;
+}
+.btn-dark{
+    background-color: black !important;
+    border: unset !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/* ==========================settings=========================== */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .sliderr {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .sliderr::before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: -4px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  input:checked + .sliderr {
+    background-color: #6DD400;
+  }
+  
+  input:focus + .sliderr {
+    box-shadow: 0 0 1px #6DD400;
+  }
+  
+  input:checked + .sliderr:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .sliderr.round {
+    border-radius: 34px;
+  }
+  .sliderr.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+  /* =====================account============================== */
+  th, td{
+      padding: 20px 15px !important;
+  }
+
+
+  .drpdwn.form-control {
+    padding: 7px 0 !important;
+}
+
+.drpdwn.form-control {
+    padding-left: 10px !important;
+}
+
+.drpdwn::after {
+    background-image: url(../img/accordion.png) !important;
+}
+
+  /* profile */
+  canvas{
+     display: block;
+  }
+  .canvasjs-chart-credit {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+select.form-control {
+    background-image: url(../img/accordion\ \(Custom\).png);
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-size: -1%;
+}
+
+
+.bg-purple{
+    background-color: #17335B !important;
+}
+
+.font-14{
+    font-size: 14px !important;
+}
+.crd .card{
+    border: 2px solid #17335B;
+}
+.text-purple{
+    color: #17335B !important;
+}
+
+
+@media screen and (max-width:768px){
+    h3 {
+        text-align: left !important;
+    }
+    .col-2 {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+    .col-10 {
+        width: 100% !important;
+    }
+    .col {
+        flex: 1 0 100%;
+        margin: auto !important;
+        margin-left: 12px !important;
+    }
+    .card {
+        margin: 10px 0 !important;
+    }
+    .sidebar {
+        height: 100vh;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .form-control {
+        text-align: left !important;
+    }
+    .d-block.text-decoration-none.text-white.text-uppercase.sidebr-menu {
+        text-align: center;
+    }
+    /* .main-body .col-md-10{
+        display: none;
+    } */
+    h3 {
+        margin: 0 15px;
+    }
+    .copyright{
+        margin: 0 15px;
+    }
+    .main-body .col-md-10 {
+        max-width: 95%;
+        margin: auto;
+    }
+    *{
+        text-align: center !important;
+        overflow-x: hidden !important;
+    }
+}
+.font-80{
+    font-size: 80px;
+}
+.fromBtn {
+    /* padding: 25px !important; */
+     
+    height: 35px !important;
+    margin: auto !important;
+    z-index: 1 !important;
+    position: absolute !important;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* =====================view clinic======================= */
+.parent{
+    height: 30px;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #17335B;
+    margin: 0;
+    padding: 0;
+}
+.parent .child{
+    height: 100%;
+    width: 52%;
+    background-color: #17335B;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:450px){
+    .topBar .text-decoration-none.mx-2:nth-child(1) {
+        position: absolute;
+        z-index: 1010;
+        top: 15px;
+        right: 50px;
+    }
+    .card.bg-purple {
+        width: 109%;
+        margin: auto;
+    }
+    .drpdwn {
+        background: unset !important;
+        width: 100% !important;
+    }
+}
