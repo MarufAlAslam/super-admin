@@ -10,6 +10,9 @@
 button:focus{
     box-shadow: unset !important;
 }
+.p-7{
+    padding: 7px !important;
+}
 .portal {
     position: relative;
     top: -20px;
